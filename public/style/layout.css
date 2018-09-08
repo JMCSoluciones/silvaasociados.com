@@ -1,0 +1,311 @@
+.b-top-bar {
+    color: #AAAAAA;
+
+
+}
+.b-top-bar-hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.top-bar-item {
+    padding-top: 5px;
+    font-size: 12px;
+    color: #A2A2A2;
+}
+.top-bar-item a {
+    color: #A2A2A2;
+    text-decoration: none;
+	transition: all 0.5s ease;
+    font-size: 12px;
+}
+.top-bar-item a:hover {
+    color: #4F4B69;
+}
+
+
+
+/*************************************************/
+/* MENU                                          */
+/*************************************************/
+
+.navbar {
+    background-color: #FFF;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+}
+.navbar-brand {
+    height: 76px;
+    padding: 0px
+}
+.navbar-nav > li > a {
+    color: #6C6C6C;
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 17px;
+    cursor: pointer;
+	transition: all 0.5s ease;
+}
+.navbar-nav > li > a:hover {
+    background: none;
+    color:#4F4B69;
+    border-bottom: 4px solid #4F4B69
+}
+.navbar-toggle {
+    background-color: #515a93
+}
+.icon-bar {
+    background-color: #FFF
+}
+
+/**************************************************/
+/* CARROUSEL                                      */
+/**************************************************/
+
+#cnt-slider {
+    margin-top: 105px
+}
+
+
+/**************************************************
+TITLE
+ **************************************************/
+
+
+.title,
+.title-white {
+    color: #6C6C6C;
+    font-size: 40px;
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.title small,
+.title-white small{
+    color: #6C6C6C;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.title:before,
+.title-white:before{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #4F4B69;
+}
+
+
+.title-white {
+    color: #FFFFFF;
+}
+.title-white small{
+    color: #FFFFFF;
+}
+.title-white:before{
+    background-color: #FFFFFF;
+}
+.title-white:before{
+    background-color: #FFFFFF;
+}
+
+.subtitle {
+    color: #4F4B69;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.thumbnail{
+    border:none;
+}
+
+.thumbnail a{
+    text-decoration: none;
+}
+
+    /**************************************************/
+/* MISION                                         */
+/**************************************************/
+
+#cnt-mision{
+    padding: 40px 10px 40px 10px !important;
+}
+
+
+/**************************************************/
+/* EMPRESA                                        */
+/**************************************************/
+
+#cnt-empresa {
+    height: auto;
+    margin-top: -10px;
+    border-top: 10px solid #B6BCD3;
+	padding: 40px 10px 40px 10px !important;
+}
+
+p.text{
+	line-height: 28px;
+}
+
+
+#cnt-nosotros {
+    padding: 40px 10px 40px 10px;
+	background-color: #4F4B69;
+    color: #fff;
+
+}
+
+.text-nosotros{
+    margin-top: 80px;
+}
+
+
+#cnt-contact {
+
+    min-height: 350px;
+    padding: 40px 10px 40px 10px;
+}
+
+#cnt-contact{
+    background: url('../images/bg_contacto.jpg') no-repeat 0% 0%;
+    padding-bottom: 50px;
+}
+
+
+#footer{
+    height: 80px;
+    color: #929398;
+    background-color: #515985 ;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+/**************************************************/
+/* GENERIC                                        */
+/*************************************************/
+
+.m-medium-t{
+    margin-top: 20px;
+}
+
+
+/**************************************************/
+/* SLIDER                                         */
+/**************************************************/
+
+.l1-s1 {
+    display: block;
+    line-height: normal;
+    font-size: 40px;
+    padding: 15px;
+    background-color: #4F4B69;
+    color: #FFFFFF
+}
+.l1-s2 h2 {
+    display: block;
+    background-color: #ED3237;
+    color: #FFF;
+    font-size: 40px;
+    padding: 15px;
+}
+.l2-s2 {
+    display: block;
+    color: #FFFFFF;
+    padding-left: 30px;
+}
+.l2-s2 h4 {
+    display: block;
+    line-height: normal;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 7px 20px;
+    color: #FFFFFF;
+}
+.l1-s4 {
+    display: block;
+    line-height: normal;
+    font-size: 24px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    color: #4F4B69;
+}
+
+#cnt-servicios{
+    padding-bottom: 100px;
+}
+.box-images{
+    margin-bottom: 20px;
+}
+.box-images a{
+    color: #409097;
+    font-size: 18px;
+}
+.box-images a:hover{
+    background-color: #464C6A;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+.box-images h3{
+    font-size: 18px;
+    background-color: #409097;
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+/**************************************************
+/* FORMS
+ *************************************************/
+
+#cnt-frm-contacto{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.contact-form{
+    width: 100%;
+}
+
+.mdl-textfield{
+    width: 100%;
+}
+
+.mdl-textfield__input{
+    border-bottom: 1px solid rgba(255,255,255,0.4) !important;
+}
+
+.mdl-textfield__label{
+        color: rgba(255,255,255,0.4) !important;
+}
+
+
+.mdl-textfield--floating-label,
+textarea.mdl-textfield__input{
+    color: #ffffff !important;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+    color:#4F4B69 !important;
+
+}
+
+.mdl-textfield__label:after{
+   background-color: #4F4B69 !important;
+    bottom:15px;
+}
